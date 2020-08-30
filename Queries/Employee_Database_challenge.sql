@@ -12,4 +12,10 @@ INTO unique_titles
 FROM public.retirement_titles
 ORDER BY emp_no, from_date desc;
 
+-- Count of retiring titles 
+SELECT count(1), title
+INTO retiring_titles
+FROM unique_titles
+GROUP BY title
+ORDER BY count(1) desc
 
