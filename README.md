@@ -22,5 +22,9 @@ From the Mentors table we can see that:
 
 ## Summary
 * As seen from the retirement results, there is a total of 90,398 employees retiring from various positins. This does not mean that all of them should be filled. Since 30.13% of all the employees are retiring, it is a good opportunity to think about restructuring the company. This could lead to a big reduction in the amount of employees needed to be hired.
-
 * When analysing the amount of qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees, we see that only 1549 (0.49%) of all employees fulfill the mentor conditions. Assuming that all positions need to be filled, the mentor to new employee ratio would be 1 to 58.36, this is like an undergraduate studies teacher to student ratio. Unless this mentors' job becomes a full time mentoring, or the positions to be filled have a very simple job, there is no way this company will be able to train it's new employees correctly.
+* Two additional tables that could help understand the "Silver Tsunami" are a retirementand mentors by department summary like the ones shown below.
+
+|Retirement by Department  |Mentors by Department|
+:-------------------------:|:-------------------------:
+![](Data/retiring_dept.png) | ![](Data/mentors_dept.png)
