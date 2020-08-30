@@ -13,7 +13,7 @@ FROM public.retirement_titles
 ORDER BY emp_no, from_date desc;
 
 -- Count of retiring titles 
-SELECT count(1), title
+SELECT count(1) as CNT, title
 INTO retiring_titles
 FROM unique_titles
 GROUP BY title
